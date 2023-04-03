@@ -2,6 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 from PIL import Image
+st.set_page_config(page_title="Lifting Lug Design",layout="wide", page_icon=image)
+
 
 def add_bg_from_url():
     st.markdown(
