@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 from PIL import Image
+image = Image.open('L&T.png')
 st.set_page_config(page_title="LLD",layout="wide", page_icon=image)
 
 
